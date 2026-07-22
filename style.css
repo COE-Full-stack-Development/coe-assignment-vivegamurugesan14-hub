@@ -1,0 +1,42 @@
+/* Applies to the entire page */
+body {
+  background-color: rgb(104, 59, 85);
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#profile-card {
+  background-color: rgb(113, 158, 209);
+  width: 750px;
+  padding: 80px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(127, 108, 145);
+  color: black;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#skills-list {
+  list-style-type: square;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.dark-theme {
+  background-color: lightgray;
+  color: rgb(112, 107, 29);
+}
